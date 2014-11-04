@@ -1,7 +1,7 @@
 JSRC intagration with Spring
 ============================
 
-To run your Spring application on WildFly 8.1 Application Server you can consider this source. It is important to add proper exclusions to you WildFly Deployment Structure Descriptor:
+To run your Spring application on WildFly 8.1 Application Server you can consider this source. It is important to add the proper exclusions to your `WildFly Deployment Structure Descriptor`:
 
 ```java
 <jboss-deployment-structure>

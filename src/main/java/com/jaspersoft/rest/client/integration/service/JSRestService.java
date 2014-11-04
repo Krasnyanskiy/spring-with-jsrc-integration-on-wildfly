@@ -11,11 +11,11 @@ import org.springframework.stereotype.Service;
 @Service
 public class JSRestService {
 
-    private static final String URI = /*"http://172.28.146.32:8080/jasperserver-pro"*/ "http://54.226.0.218/jasperserver-pro";
+    private static final String URI = "http://54.226.0.218/jasperserver-pro";
     private Session session;
 
     /**
-     * Creates Client configuration and return a Client session.
+     * Creates client configuration and returns session.
      *
      * @return {@link Session}
      */

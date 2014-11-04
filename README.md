@@ -1,7 +1,7 @@
 JSRC intagration with Spring
 ============================
 
-To run your Spring application on WildFly 8.1 Application Server you can consider this source. It is important to add the proper exclusions to your `WildFly Deployment Structure Descriptor`:
+To run your Spring application on WildFly 8.1 Application Server you can make a few simple steps. First of all `JSRC` is written on `Jersey` so it is very important to exclude WildFly's JSR 311 implementation (`RestEasy`) from AS and replace it with `Jersey` implementaion. The proper exclusions in your `WildFly Deployment Structure Descriptor` could be done in the way like this:
 
 ```java
 <jboss-deployment-structure>
@@ -26,7 +26,7 @@ To run your Spring application on WildFly 8.1 Application Server you can conside
     </deployment>
 </jboss-deployment-structure>
 ```
-Also you need to include to your pom file
+Also you need to include to your pom file a few dependencies
 ```java
 <dependency>
     <groupId>org.glassfish.jersey.containers</groupId>

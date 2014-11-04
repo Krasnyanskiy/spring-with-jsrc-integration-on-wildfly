@@ -26,7 +26,7 @@ To run your Spring application on WildFly 8.1 Application Server you can make a 
     </deployment>
 </jboss-deployment-structure>
 ```
-Also you need to include to your pom file a few dependencies
+Also you need to include in your pom file such dependencies
 ```java
 <dependency>
     <groupId>org.glassfish.jersey.containers</groupId>

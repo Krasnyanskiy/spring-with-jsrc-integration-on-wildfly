@@ -39,3 +39,4 @@ Also you need to include in your pom file these dependencies
     <version>2.13</version>
 </dependency>
 ```
+Module `jersey-gf-cdi` tells the CDI container to leave injections in Jersey code to be handled by Jersey itself.

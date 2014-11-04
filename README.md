@@ -26,7 +26,7 @@ To run your [Spring](http://spring.io) application on [WildFly 8.1](http://wildf
     </deployment>
 </jboss-deployment-structure>
 ```
-Also you need to include in your pom file a such dependencies
+Also you need to include in your pom file these dependencies
 ```java
 <dependency>
     <groupId>org.glassfish.jersey.containers</groupId>
